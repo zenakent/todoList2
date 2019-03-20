@@ -26,7 +26,7 @@ app.get("/", function (req, res) {
 
 app.use('/api/todos', todoRoutes);
 
-
+console.log("HELLO FROM ROOT INDEX")
 
 app.listen(8080, function () {
     console.log("todo list is running");
